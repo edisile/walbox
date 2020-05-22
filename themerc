@@ -1,0 +1,99 @@
+# Wal Openbox theme template by edisile
+
+### WINDOW
+border.width: 2
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+padding.width: 2
+padding.height: 2
+
+window.active.border.color: {background}
+window.inactive.border.color: {background}
+window.active.title.separator.color: {background}
+window.inactive.title.separator.color: {background}
+window.active.client.color: {background}
+window.inactive.client.color: {background}
+
+window.active.label.text.color: {foreground}
+window.inactive.label.text.color: #777777
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: {background}
+window.active.label.bg: flat solid
+window.active.label.bg.color: {background}
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: {background}
+window.inactive.label.bg: flat solid
+window.inactive.label.bg.color: {background}
+
+window.*.button.*.hover.bg: flat
+window.*.button.*.hover.bg: parentrelative
+window.active.button.disabled.image.color: #999999
+
+window.*.button.close.*.image.color: {color1}
+window.*.button.max.*.image.color: {color2}
+window.*.button.iconify.*.image.color: {color4}
+window.*.button.desk.*.image.color: {color3}
+window.*.button.shade.*.image.color: {color5}
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.label.text.justify: left
+
+### MENU
+menu.border.width: 4
+menu.separator.width: 1
+menu.separator.padding.width: 10
+menu.separator.padding.height: 2
+
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+menu.border.color: {background}
+menu.separator.color: {background}
+
+menu.title.text.color: #ffffff
+menu.title.bg: flat solid
+menu.title.bg.color: {background}
+menu.title.text.justify: center
+menu.title.text.font: shadow=y
+
+menu.items.text.color: #b5b5b5
+menu.items.disabled.text.color: #7a7a7a
+menu.items.active.text.color: {color1}
+menu.items.active.disabled.text.color: #aeb0b6
+menu.items.bg: flat solid
+menu.items.bg.color: {background}
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: {background}
+
+### OSD
+osd.border.width: 4
+osd.border.color: {background}
+
+osd.label.text.color: {foreground}
+
+osd.bg: flat solid
+osd.bg.color: {background}
+osd.label.bg: flat solid
+osd.label.bg.color: {background}
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: {color1}
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: {foreground}
