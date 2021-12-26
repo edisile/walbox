@@ -8,7 +8,7 @@ mkdir "$config_dir"/wal/templates/ 2> /dev/null
 cp themerc "$config_dir"/wal/templates/themerc
 
 # Generate a themerc from current wal colors
-wal -nqi "$(cat "$cache_dir"/wal/wal)"
+wal -nqi "$(< "$cache_dir"/wal/wal)"
 
 # Copy theme bitmaps
 cp -r Walbox ~/.themes/Walbox
